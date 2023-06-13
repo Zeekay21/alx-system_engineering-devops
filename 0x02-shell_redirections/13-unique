@@ -1,0 +1,2 @@
+#!/bin/bash
+cat *.txt | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' '\n' | sort | uniq -u
